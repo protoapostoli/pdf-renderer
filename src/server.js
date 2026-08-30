@@ -226,6 +226,6 @@ process.on('SIGINT', shutdown);
 /**
  * Start server.
  */
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '::', () => {
     console.log(`PDF renderer listening on port ${PORT}`);
 });
